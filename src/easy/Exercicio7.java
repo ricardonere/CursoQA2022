@@ -3,7 +3,7 @@ package easy;
 import javax.swing.JOptionPane;
 
 public class Exercicio7 {
-    public String calculoSalario(double salario,double inss) {
+    public String calculoSalario(double salario, double inss) {
 
         salario = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do seu salario"));
 
