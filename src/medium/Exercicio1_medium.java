@@ -1,17 +1,17 @@
 package medium;
 
 public class Exercicio1_medium {
-    public static void main(String[] args) {
-        int i = 0;
+    public String numeroDigitado(int i) {
+        
 
         while (i <= 100) {
 
             if (i % 2 == 0) {//% => MOD
-                System.out.println("O numero: " + i + " É par!");
+                return("O numero: " + i + " É par!");
             } else {
-                System.out.println("O numero: " + i + " É ímpar!");
+                return("O numero: " + i + " É ímpar!");
             }
-         i++;
         } // fim while
+        return null;
     }// fim main
 }// fim da classe
