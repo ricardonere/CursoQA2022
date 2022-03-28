@@ -2,7 +2,7 @@ package medium;
 
 public class Exercicio03_medium {
 
-    public static void main(String[] args) {
+    public void somaNumerosAteMil () {
 
         int i = 0, soma = 0;
 
