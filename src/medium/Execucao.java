@@ -19,9 +19,13 @@ public class Execucao {
 // exercicio03_medium.somaNumerosAteMil();
 
 //Exercicio 04
-Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
-exercicio04_medium.multiplicarAteMil();
+// Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
+// exercicio04_medium.multiplicarAteMil();
 
+//Exercicio05
+Exercicio05_medium exercicio05_medium =new Exercicio05_medium();
+int menorNumero = exercicio05_medium.validarNumeroDigitado();
+System.out.println("O número: " + menorNumero + " é o menor.");
 
     }
 }
