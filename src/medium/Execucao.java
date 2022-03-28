@@ -15,8 +15,12 @@ public class Execucao {
 // System.out.println("O valor total são:" +valorTotal);
 
 //Exercicio03
-Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
-exercicio03_medium.somaNumerosAteMil();
+// Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
+// exercicio03_medium.somaNumerosAteMil();
+
+//Exercicio 04
+Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
+exercicio04_medium.multiplicarAteMil();
 
 
     }

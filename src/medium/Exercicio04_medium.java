@@ -2,7 +2,7 @@ package medium;
 
 public class Exercicio04_medium {
 
-    public static void main(String[] args) {
+    public void multiplicarAteMil() {
 
         int i = 1, resultadoMultiplicacao = 1;
 
