@@ -1,9 +1,9 @@
 package medium;
 
 public class Exercicio10_medium {
-    public static void main(String[] args) {
+    public String[] calculaFibonacciStrings() {
 
-        int vetorFibonacci[] = new int[10];
+        int[] vetorFibonacci = new int[10];
         int i = 2;
         vetorFibonacci[0] = 0;
         vetorFibonacci[1] = 1;
@@ -17,6 +17,7 @@ public class Exercicio10_medium {
             System.out.println(vetorFibonacci[i]);
             i++;
         }
+        return null;
 
         // Declarar vetor tipo inteiro: vetorFibonacci[10];
         // Declarar variável do tipo inteiro: i = 2;

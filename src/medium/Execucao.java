@@ -34,13 +34,18 @@ public class Execucao {
 // fatorial = exercicio06_medium.exibirFatorial(fatorial);
 // System.out.println(fatorial);
 
-// Exercicio 07
-Exercicio07_medium exercicio07_medium= new Exercicio07_medium();
-String vetorMeses[] =exercicio07_medium.exibirVetores();
-exercicio07_medium.inprimeValorVetor(vetorMeses);
+// // Exercicio 07
+// Exercicio07_medium exercicio07_medium= new Exercicio07_medium();
+// String vetorMeses[] =exercicio07_medium.exibirVetores();
+// exercicio07_medium.inprimeValorVetor(vetorMeses);
 
 //Exercicio 09
+Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+exercicio09_medium.exibeNomeNumeros();
 
+//Exercicio 10
+// Exercicio10_medium exercicio10_medium = new Exercicio10_medium();
+// exercicio10_medium.calculaFibonacciStrings();
 
 
 
