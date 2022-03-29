@@ -7,25 +7,25 @@ public class Exercicio07_medium {
     public String[] exibirVetores() {
          String vetorMeses[] = new String[12];
 
-        vetorMeses[0] = JOptionPane.showInputDialog("Janeiro");
-        vetorMeses[1] = JOptionPane.showInputDialog("Fevereiro");
-        vetorMeses[2] = JOptionPane.showInputDialog("Março");
-        vetorMeses[3] = JOptionPane.showInputDialog("Abril");
-        vetorMeses [4] = JOptionPane.showInputDialog("Maio");
-        vetorMeses [5] = JOptionPane.showInputDialog("Junho");
-        vetorMeses[6 ] = JOptionPane.showInputDialog("Julho");
-        vetorMeses [7 ] = JOptionPane.showInputDialog("Agosto");
-        vetorMeses[8] = JOptionPane.showInputDialog("Setembro");
-        vetorMeses[9] = JOptionPane.showInputDialog("Outubro");
-        vetorMeses[10] = JOptionPane.showInputDialog("Novembro");
-        vetorMeses[11] = JOptionPane.showInputDialog("Dezembro");
+        vetorMeses[0] = ("Janeiro");
+        vetorMeses[1] = ("Fevereiro");
+        vetorMeses[2] = ("Março");
+        vetorMeses[3] = ("Abril");
+        vetorMeses [4] = ("Maio");
+        vetorMeses [5] = ("Junho");
+        vetorMeses[6 ] = ("Julho");
+        vetorMeses [7 ] = ("Agosto");
+        vetorMeses[8] = ("Setembro");
+        vetorMeses[9] = ("Outubro");
+        vetorMeses[10] = ("Novembro");
+        vetorMeses[11] = ("Dezembro");
         
         return vetorMeses;
     }
-       public void inprimeValorVetor (String [] vetorMeses){
+       void inprimeValorVetor (String [] vetorMeses){
         int i=0;
-        while (i<=11){
-            System.out.println(vetorMeses[i]);
+        while (i<12){
+            System.out.println("O mês" +(i+1)+"-" +vetorMeses[i]);
             i++;
             
         }
