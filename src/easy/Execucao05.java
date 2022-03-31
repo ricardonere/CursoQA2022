@@ -8,6 +8,6 @@ public class Execucao05 {
         System.out.println(exercicio5.calcularSoma(5, 10, 15));
         System.out.println(exercicio5.calcularSubtracao(5, 10, 15));
         System.out.println(exercicio5.calcularMultiplicacao(5, 10, 15));
-        System.out.println(exercicio5.calcularMedia(5, 10, 15));
+        System.out.println(exercicio5.calcularMedia(9,9,7));
     }
 }

@@ -10,7 +10,7 @@ public class Exercicio10 {
         valorJuros = valorInvestimento * taxaJuros; // 500,00. valorTotal = valorTotal = valorJuros+valorInvestimento
         valorTotal = valorJuros+valorInvestimento;
 
-        return("Você investiu: "+valorInvestimento+"Rendeu : "+valorJuros + "de Juros"+"O Valor total são : "+ valorTotal);
+        return("Você investiu: "+valorInvestimento+" - Rendeu: "+valorJuros + " de Juros."+" O Valor total são: "+ valorTotal);
         
         
 

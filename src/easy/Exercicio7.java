@@ -1,37 +1,35 @@
 package easy;
 
-import javax.swing.JOptionPane;
-
 public class Exercicio7 {
-    public String calculoSalario(double salario, double inss) {
+    public String calculoInss(double salario) {
 
-        salario = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do seu salario"));
+        double inss =0.0;
 
         if (salario <= 1045.00) {
 
-            inss = (int) (salario * 0.075);
-            return ("O Valor que você de inss será: " + inss);
+            inss =  (salario * 0.075);//calcula e atribui o resultado a variavel
+            
         }
         if (salario >= 1045.01 && salario <= 2089.60) {
-            inss = (int) (salario * 0.09);
-            return (" O valor de inss será: " + inss);
+            inss = (salario * 0.09);
+            
         }
         if (salario >= 2089.61 && salario <= 3134.40) {
 
-            inss = (int) (salario * 0.12);
-            return ("O valor de Inss será: " + inss);
+            inss = (salario * 0.12);
+            
         }
         if (salario >= 3134.41 && salario <= 6101.06) {
 
-            inss = (int) (salario * 0.14);
-            return ("O Valor que você de inss será: " + inss);
+            inss = (salario * 0.14);
+            
         }
         if (salario >= 6101.07) {
 
-            inss = (int) 854.15;
-            return ("O Valor que você de inss será: " + inss);
+            inss = 854.15;
+            
         }
-        return null;
+        return ("O Valor que você pagará de inss será: " + inss);
     }
 
 }

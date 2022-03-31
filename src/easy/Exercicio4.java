@@ -1,12 +1,12 @@
 package easy;
 
 
-import javax.swing.JOptionPane;
+
 
 public class Exercicio4 {
-    public String numeroDigitado (int numero) {
+    public int numeroDigitado (int numero) {
         
-        return ("O usuário digitou: "+numero*2); 
+        return (numero*2); 
            
     }
 
