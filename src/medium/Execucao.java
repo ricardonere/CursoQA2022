@@ -9,8 +9,8 @@ public class Execucao {
 //     double valorInvestimento = Double.parseDouble(valorInvestimentoStg);
 // Exercicio02_medium exercicio02_medium = new Exercicio02_medium();
 // double valorJuros = exercicio02_medium.valorInvestidoJurosCompostos(valorInvestimento);
-// double valorTotal = exercicio02_medium.calcularValorInvestido(valorInvestimento, valorJuros);
-// System.out.println("Você investiu" +valorInvestimento);
+// double valorTotal = exercicio02_medium.calcularValorTotal(valorInvestimento, valorJuros);
+// System.out.println("Você investiu " +valorInvestimento);
 // System.out.println("O valor dos juros são de" +valorJuros);
 // System.out.println("O valor total são:" +valorTotal);
 
@@ -40,8 +40,8 @@ public class Execucao {
 // exercicio07_medium.inprimeValorVetor(vetorMeses);
 
 //Exercicio 09
-Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
-exercicio09_medium.exibeNomeNumeros();
+// Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+// exercicio09_medium.exibeNomeNumeros();
 
 //Exercicio 10
 // Exercicio10_medium exercicio10_medium = new Exercicio10_medium();

@@ -22,7 +22,8 @@ public class Exercicio02_medium {
         return totalAtualizadoComJuros-valorInvestimento;
         // return tempoInvestido;
     }// fim main
-    public double calcularValorInvestido(double valorInvestimento, double valorJuros){
+    public double calcularValorTotal(double valorInvestimento, double valorJuros){
         return valorInvestimento + valorJuros;
     }
 }// fim da classe
+//Confirmar se o valor retornado está correto

@@ -18,3 +18,4 @@ public class Exercicio04_medium {
 
     }// fim main
 }// fim classe
+// Fazer e retornar com vetor

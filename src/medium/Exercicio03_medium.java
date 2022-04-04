@@ -18,3 +18,4 @@ public class Exercicio03_medium {
     }// fecha main
 
 }// fecha classe
+// Fazer e retornar com vetor

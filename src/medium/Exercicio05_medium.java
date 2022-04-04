@@ -26,4 +26,4 @@ public class Exercicio05_medium {
         int numeroDigitado = Integer.parseInt(numeroDigitadoString);
         return numeroDigitado;
     }
-}
+}//Remover joptonpane e receber por parâmetro
