@@ -11,7 +11,6 @@ public class Exercicio1_medium {
                 vetorParImpar [i]= "O numero: " + i + " É par!";
             } else {
                vetorParImpar [i]= "O numero: " + i + " É ímpar!";
-
             }
             i++;
         } // fim while
