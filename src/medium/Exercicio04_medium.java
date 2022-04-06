@@ -2,20 +2,21 @@ package medium;
 
 public class Exercicio04_medium {
 
-    public int [] multiplicarAteMil() {
+    public int [] multiplicarAteMil() {//assinatura
 
-        int i = 1, resultadoMultiplicacao = 1;
-        int [] vetorMultiplicaNumeros = new int [1001];
-        while (i <= 1000) {
-            resultadoMultiplicacao = resultadoMultiplicacao * i;
-            vetorMultiplicaNumeros [i] = resultadoMultiplicacao;
-            i++;
-            if (resultadoMultiplicacao > 1000) {
-                resultadoMultiplicacao = 1;
+        int i = 1, resultadoMultiplicacao = 1;//variaveis
+        int [] vetorMultiplicaNumeros = new int [1001];//instanciar(criar vetor)
+        while (i <= 1000) {//enquanto
+            resultadoMultiplicacao = resultadoMultiplicacao * i;//multiplicacao e atribuicao
+            vetorMultiplicaNumeros [i] = resultadoMultiplicacao;//atribui resultadoMulti ao vetor na posicao i
+            
+            if (resultadoMultiplicacao > 1000) {//verificando se resultado da multi é maior que 1000
+                resultadoMultiplicacao = 1;//atribuição 1 para variavel resultadoMulti
+                vetorMultiplicaNumeros [i] = resultadoMultiplicacao;//atribui resultadoMulti ao vetor na posicao i
             }
-            i++;
+            i++;//icremento
         } // fim while
-        return vetorMultiplicaNumeros;
+        return vetorMultiplicaNumeros;//retorna vetorMultiplicaNumeros
 
     }// fim main
 }// fim classe

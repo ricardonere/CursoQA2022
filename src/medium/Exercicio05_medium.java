@@ -1,29 +1,22 @@
 package medium;
 
-import javax.swing.JOptionPane;
-
 public class Exercicio05_medium {
 
-    public int validarNumeroDigitado() {
-        int numeroDigitado;
-        int menorNumero = 0, i = 1;
-        String numeroDigitadoString;
+    public int verificarMenorNumero(int []vetorNumeros) {//assinatura(parametro entre parenteses)
+        int numeroDigitado;//variável
+        int menorNumero = 0, i = 1;//variável
+       
 
-        while (i <= 5) {
-            numeroDigitado = lerNumeroDigitado();
+        while (i <= 5) {//enquanto
+            numeroDigitado = vetorNumeros [i-1];//calcula e atribui o resultado a variavel
              
-            if (numeroDigitado < menorNumero || i == 1) {
-                menorNumero = numeroDigitado;
+            if (numeroDigitado < menorNumero || i == 1) {//se
+                menorNumero = numeroDigitado;//
             }
-            i++;
+            i++;//icremento
         }
-        System.out.println("O número: " + menorNumero + " é o menor.");
-        return menorNumero;
+        return menorNumero;//retorno
     }
 
-    private int lerNumeroDigitado() {
-        String numeroDigitadoString = JOptionPane.showInputDialog("Digite um numero");
-        int numeroDigitado = Integer.parseInt(numeroDigitadoString);
-        return numeroDigitado;
-    }
+    
 }//Remover joptonpane e receber por parâmetro
